@@ -10,16 +10,7 @@
       </div>
     </li>
     <li class="nav-item"><a href="teaching.php">TEACHING</a></li>
-    <li class="nav-item">
-      <a href="programming.php">PROGRAMMING</a>
-      <div class="dropdown-content">
-        <a href="ccpp.php">C/C++</a>
-        <a href="magma.php">Magma</a>
-        <a href="java.php">Java</a>
-        <a href="sage.php">Sage</a>
-        <a href="python.php">Python</a>
-      </div>
-    </li>
+    <li class="nav-item"><a href="programming.php">PROGRAMMING</a></li>
     <li class="nav-item"><a href="contact.php"> CONTACT</a></li>
     <li class="nav-item" style="float:right; opacity:0.5;"><img src="img/eb5.png" style="width:30px;height:30px;"></li>
   </ul>

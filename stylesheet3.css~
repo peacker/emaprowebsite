@@ -133,7 +133,7 @@ nav ul {
 .dropdown-content a:hover {
 }
 
-.nav-item:hover .dropdown-content {
+.dropdown:hover .dropdown-content {
     display: block;
 }
 /* ACTIVE CLASSES */ 

@@ -3,8 +3,9 @@
 
   <head>
 	  <title>Emanuele Bellini</title>
+    <link rel="icon" href="img/eb5.png">
 
-	  <link type="text/css" rel="stylesheet" href="stylesheet2.css"/>
+	  <link type="text/css" rel="stylesheet" href="stylesheet3.css"/>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
 
@@ -20,7 +21,7 @@
     <script>
       function setActive() {
         // HIGHLIGH NAV BAR ITEM
-        var aObj = document.getElementById('navbar').getElementsByTagName('a');
+        var aObj = document.getElementById('navbar1').getElementsByTagName('a');
         //aObj = document.getElementsByTagName('nav').getElementsByTagName('a');
         for(i=0;i<aObj.length;i++) { 
           if(document.location.href.indexOf(aObj[i].href)>=0) {
@@ -61,7 +62,7 @@
 
 	<body>
 
-    <?php include 'navbar.html';?>
+    <?php include 'navbar1.html';?>
 
     <div id="wrapper">
       <header>

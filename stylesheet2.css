@@ -76,7 +76,6 @@ nav ul {
     margin: auto; /* to horizontally center an element within its container */
     width: 850px;
     overflow: hidden;
-
     list-style-type: none; /* remove the bullets */
 }
 

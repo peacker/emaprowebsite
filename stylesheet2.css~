@@ -76,7 +76,6 @@ nav ul {
     margin: auto; /* to horizontally center an element within its container */
     width: 850px;
     overflow: hidden;
-
     list-style-type: none; /* remove the bullets */
 }
 
@@ -101,7 +100,7 @@ nav li a {
 
 
 /* DROPDOWN CLASSES */
-.dropdown {
+.nav-item {
     display: inline-block;
 }
 
@@ -127,39 +126,6 @@ nav li a {
 
 /* ACTIVE CLASSES */ 
 #navbar ul li .active {
-}
-
-/* Hide the list item that contains the link that should open and close the topnav on small screens */
-ul.nav-list li.icon {display: none;}
-
-@media screen and (max-width : 680px)
-{
-  .nav {
-    width:100%;
-  }
-
-  /* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
-  ul.nav-list li:not(:first-child) {display: none;}
-  ul.nav-list li.icon {
-    float: right;
-    display: inline-block;
-  }
-
-  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
-  ul.nav-list.responsive {position: relative;}
-  ul.nav-list.responsive li.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  ul.nav-list.responsive li {
-    float: none;
-    display: inline;
-  }
-  ul.nav-list.responsive li a {
-    display: block;
-    text-align: left;
-  }
 }
 
 /****************************************************************************/
