@@ -21,7 +21,7 @@
     <script>
       function setActive() {
         // HIGHLIGH NAV BAR ITEM
-        var aObj = document.getElementById('navbar1').getElementsByTagName('a');
+        var aObj = document.getElementById('navbar').getElementsByTagName('a');
         //aObj = document.getElementsByTagName('nav').getElementsByTagName('a');
         for(i=0;i<aObj.length;i++) { 
           if(document.location.href.indexOf(aObj[i].href)>=0) {
