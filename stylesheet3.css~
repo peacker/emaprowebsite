@@ -133,22 +133,11 @@ nav ul {
 .dropdown-content a:hover {
 }
 
-.dropdown:hover .dropdown-content {
+.nav-item:hover .dropdown-content {
     display: block;
 }
 /* ACTIVE CLASSES */ 
 #navbar ul li .active {
-}
-
-/* MEDIA QUERIES */
-@media only screen and (min-width: 320px) and (max-width: 768px) {
-  .nav {
-    width:100%;
-  }
-  .nav-item {
-    width:100%;
-    float:none;
-  }
 }
 
 .nav-mobile {
@@ -167,9 +156,26 @@ nav ul {
 */
 }
 
+/* MEDIA QUERIES */
+/*
 @media only screen 
 and (min-width: 320px) 
-and (max-width: 768px) {
+and (max-width: 768px)
+*/
+/* for iphone 4/4s*/
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px) 
+and (-webkit-device-pixel-ratio: 2) 
+and (device-aspect-ratio: 2/3)
+{
+  .nav {
+    width:100%;
+  }
+  .nav-item {
+    width:100%;
+    float:none;
+  }
 	.nav-mobile {
 		display:block;
 	}
