@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+	  <title>Emanuele Bellini</title>
+	  <link type="text/css" rel="stylesheet" href="stylesheet1.css"/>
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+
+<!--
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+-->
+    <link rel="stylesheet" href="highlight/styles/default.css">
+    <script src="highlight/highlight.pack_ema.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <script>
+      function setActive() {
+        // HIGHLIGH NAV BAR ITEM
+        aObj = document.getElementById('navbar').getElementsByTagName('a');
+        //aObj = document.getElementsByTagName('nav').getElementsByTagName('a');
+        for(i=0;i<aObj.length;i++) { 
+          if(document.location.href.indexOf(aObj[i].href)>=0) {
+            aObj[i].className='active';
+          }
+        }
+        // SET NAV BAR IMAGE
+        aObj = document.getElementById('header-img');
+        page_name = location.pathname.split('/') ;
+        page_name = page_name[page_name.length-1] ;
+        //document.write(page_name) ;
+        switch (page_name) {
+          case'home.php':
+            aObj.src = 'img/alpi2.png' ;
+            break;
+          case'about.php':
+            aObj.src = 'img/jump2.png' ;
+            break;
+          case'research.php':
+            aObj.src = 'img/research.jpg' ;
+            break;
+          case'programming.php':
+            aObj.src = 'img/programming4.jpg' ;
+            break;
+          case'ccpp.php':
+            aObj.src = 'img/programming5.jpg' ;
+            break;
+          case'magma.php':
+            aObj.src = 'img/programming5.jpg' ;
+            break;
+          case'sage.php':
+            aObj.src = 'img/programming5.jpg' ;
+            break;
+          case'python.php':
+            aObj.src = 'img/programming5.jpg' ;
+            break;
+          case'contact.php':
+            aObj.src = 'img/contact.jpg' ;
+            break;
+          default:
+            aObj.src = 'img/alpi2.png' ;
+        } 
+      }
+      window.onload = setActive;
+    </script>
+
+  </head>
+
+	<body>
+
+    <div id="wrapper">
+      <header>
+        <br>
+        <h1 id="bigtitle">Emanuele Bellini</h1>
+        <br>
+
+        <nav id="navbar">
+        <ul class="nav-list">
+          <li ><a href="home.php">HOME</a></li>
+          <li><a href="about.php">ABOUT</a></li>
+          <li><a href="research.php">RESEARCH</a></li>
+          <li class="dropdown">
+            <a href="programming.php">PROGRAMMING</a>
+            <div class="dropdown-content">
+              <a href="ccpp.php">C/C++</a>
+              <a href="magma.php">Magma</a>
+              <a href="sage.php">Sage</a>
+              <a href="python.php">Python</a>
+            </div>
+          </li>
+          <li><a href="contact.php"> CONTACT</a></li>
+        </ul>
+        </nav>
+
+        <br>
+
+        <div class="header-img-container">
+      <!--
+
+          <img class="header-img" src="img/programming.jpg">
+      -->
+          <img id="header-img" src="img/alpi.png">          
+        </div>
+
+
+      </header>
+
+      <!--
+      <aside>
+        aside
+      </aside>
+      -->
+
+      <div id="main">
+
+        <h3>Title</h3>
+        <hr>
+        <br>
+        <p>
+        Work in progress...
+        </p>
+
+      </div>
+
+      <!--
+      <div id="body-img-container">
+        <img src="img/jump.jpg"> 
+      </div>
+      -->
+
+      <footer>
+        <span>
+          Maintained by Emanuele Bellini
+        </span>
+      </footer>
+
+    </div>
+
+	</body>
+
+</html>
+
+<!--
+-->
+

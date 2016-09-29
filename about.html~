@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+  <?php
+    include "head.html" ;
+  ?>
+
+	<body>
+
+    <?php
+      include "header.html" ;
+    ?>
+
+    <?php
+      include "aside.html" ;
+    ?>
+
+
+    <main>
+      MAIN ABOUT<br>
+      MAIN <br>
+      MAIN <br>
+    </main>
+
+    <?php
+      include "footer.html" ;
+    ?>
+
+	</body>
+</html>
+
+<!--
+-->
+

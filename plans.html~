@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Plans</title>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+  </head>
+  <body>
+
+  <div id="navbar">
+    <div class="navbar_div">
+      <a class="navbar_link" href="index.html">home</a>
+    </div>
+    <div class="navbar_div">
+      <a class="navbar_link" href="cv.html">cv</a>
+    </div>
+    <div class="navbar_div">
+      <a class="navbar_link" href="plans.html">plans for World Domination</a>
+    </div>
+    <div class="navbar_div">
+      <a class="navbar_link" href="contact.html">contact</a>
+    </div>
+  </div>
+ 
+  <div>   
+    <p>no good ideas yet... have one?</p>
+  <div>
+
+  </div>
+    <p>...well, let's see if you can beat me at... ta daaaan:</p>
+    <input type="button" onclick="rpsGame()" value="rock paper scissors game">
+    <script src="rockpaperscissor.js"></script> 
+
+  </div>
+  </body>
+</html>

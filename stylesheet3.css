@@ -1,0 +1,419 @@
+
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+html{
+    height: 100%;
+}
+
+/****************************************************************************/
+/******************************** BODY **************************************/
+
+body {
+    height: 100%;
+    line-height: 1.6;
+}
+
+/****************************************************************************/
+/******************************* WRAPPER ************************************/
+
+#wrapper {
+    position: relative;
+    min-height: 100%;
+    vertical-align:bottom;
+    margin:0 auto;
+    padding-top: 50px;
+    height:100%;
+}
+
+/****************************************************************************/
+/******************************* HEADER *************************************/
+
+header {
+    width: 100%;
+    min-width: 850px;
+    /* height: 100px; */
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: center;
+    //border: solid black;
+}
+
+@font-face {
+    font-family: OCRAExtendedRegular;
+    src: url(fonts/OCRAEXT.TTF);
+}
+
+#bigtitle {
+    //font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    font-family: OCRAExtendedRegular;
+    font-size: 25px;
+
+//    font-style: normal;
+//    font-variant: normal;
+//    font-weight: 300;
+
+    margin:0 auto;
+    width: 850px;
+}
+
+#littletitle {
+    font-family: OCRAExtendedRegular;
+}
+
+/****************************************************************************/
+/*************************** NAVIGATION BAR *********************************/
+
+nav {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+nav ul {
+    margin: auto; /* to horizontally center an element within its container */
+    width: 850px;
+    overflow: hidden;
+
+    list-style-type: none; /* remove the bullets */
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block; /* Displaying the links as block elements makes 
+                       the whole link area clickable (not just the text), 
+                       and it allows us to specify padding 
+                       (and height, width, margins, etc. if you want) */
+    padding: 8px 16px; 
+                     /* Since block elements take up the full width available, 
+                     they cannot float next to each other. Therefore, 
+                     specify some padding to make them look good */
+
+    text-align: center;
+    text-decoration: none; /* remove underline */
+}
+
+
+
+/* DROPDOWN CLASSES */
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* ACTIVE CLASSES */ 
+#navbar ul li .active {
+}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.nav-list li.icon {display: none;}
+
+@media screen and (max-width : 680px)
+{
+  .nav {
+    width:100%;
+  }
+
+  /* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+  ul.nav-list li:not(:first-child) {display: none;}
+  ul.nav-list li.icon {
+    float: right;
+    display: inline-block;
+  }
+
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
+  ul.nav-list.responsive {position: relative;}
+  ul.nav-list.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.nav-list.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.nav-list.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
+/****************************************************************************/
+/******************************** main **************************************/
+
+#main {
+    width: 750px;
+    margin: 0 auto; /* 0 auto -30px */
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+
+    /* old */
+    padding: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    /*
+    padding-top: 1em;
+    padding-bottom: 1em;
+    */
+}
+
+/****************************************************************************/
+/******************************** ASIDE *************************************/
+/*
+aside {
+    position: relative;
+    float: right ;
+  	width: 10em;
+    top: 25em;
+    bottom: 5em;
+    right: 0;
+    height: 100%;
+}
+*/
+
+/****************************************************************************/
+/******************************* FOOTER *************************************/
+
+footer{
+    //position: absolute;
+    //bottom: 0;
+    width:100%;
+    height: 48px;
+    min-width: 750px;
+    text-align: center;
+}
+
+footer span {
+    vertical-align: -15px;
+}
+
+/****************************************************************************/
+/******************************* COLORS *************************************/
+
+body {
+    background-color: #FFFFFF; /* #FFFFFF white */
+    /*background-image: url("./img/jump.jpg");*/
+    background-repeat: no-repeat; /* does not repeat for filling */
+    background-position: center center; /* position of the image */
+    background-attachment: fixed; /* no scrolling with rest of the page */
+    background-size: cover;
+}
+
+header {
+    //background-color: #F0F0F0; /* #FF0000 red */ 
+    opacity: 0.75;
+    /*background: url("./img/jump.jpg") ;*/
+}
+
+#bigtitle a {
+    color: #F0F0F0;
+    //text-shadow: 2px 2px 5px #707070;
+}
+#littletitle {
+    color: #707070;
+}
+
+nav {
+    background-color: #F0F0F0 ; /* #00FF00 green */
+    opacity: 0.75;
+}
+
+nav ul {
+    /* background-color: #F0F0F0 ;*/  /* #00FFFF light blue */
+    box-shadow:         inset 0px 0px 0px #707070;
+    -webkit-box-shadow: inset 0px 0px 0px #707070;
+    -moz-box-shadow:    inset 0px 0px 0px #707070;
+    -o-box-shadow:      inset 0px 0px 0px #707070;
+}
+
+nav li a {
+    /*background-color: #F0F0F0 ;*/ /* #FFFF00 yellow */
+    color: #707070; /* #6b00b3; viola */
+    box-shadow:         inset 0px 0px 0px #707070;
+    -webkit-box-shadow: inset 0px 0px 0px #707070;
+    -moz-box-shadow:    inset 0px 0px 0px #707070;
+    -o-box-shadow:      inset 0px 0px 0px #707070;
+}
+
+nav ul li {
+    margin-left: 0em;
+}
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+    background-color: #E8E8E8; /* #FF00FF light violet */
+}
+
+.active {
+    background-color: #F0F00F; /* #C0C0C0 grey */
+    border-bottom: 3px #000000 solid;
+}
+
+/* DROPDOWN CLASSES */
+.dropdown {
+}
+
+.dropdown-content {
+    background-color: #F0F0F0; /* #600000 dark red */
+}
+
+.dropdown-content a {
+    color: #000000;
+}
+
+.dropdown-content a:hover {
+    background-color: #E8E8E8; /* #666600 military green */
+}
+
+.dropdown:hover .dropdown-content {
+}
+
+/*
+aside {
+  background-color: yellow;
+}
+*/
+#main{
+    background-color: #F0F0F0; /* #F0F0F0; light grey */ /* #0000FF blue */
+    color: #707070;
+
+    box-shadow:         inset 0px 0px 0px #707070;
+    -webkit-box-shadow: inset 0px 0px 0px #707070;
+    -moz-box-shadow:    inset 0px 0px 0px #707070;
+    -o-box-shadow:      inset 0px 0px 0px #707070;
+
+    opacity: 0.95;
+}
+footer{
+    background-color: #707070; /* #660066 violet */
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #CCC;
+    margin: 0 0;
+    padding: 0; 
+}
+
+/****************************************************************************/
+/******************************** FONTS *************************************/
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+header {
+}
+
+h1 {
+}
+
+h1, h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-variant: small-caps;
+}
+
+nav {
+    font-family: "Roboto", sans-serif;
+    font-size: small;
+    font-weight: bold;
+}
+/*
+aside {
+  background-color: yellow;
+}
+*/
+#main {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+}
+footer {
+    font-family: "Open Sans", sans-serif;
+    font-size: small;
+    font-weight: 300;
+}
+
+/****************************************************************************/
+/******************************** OTHER *************************************/
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    /*
+     * We want the bullets outside of the list,
+     * so the text is aligned. Now the actual bullet
+     * is outside of the list’s container
+     */
+    list-style-position: outside;
+
+    /*
+     * Because the bullet is outside of the list’s
+     * container, indent the list entirely
+     */
+    margin-left: 1em;
+}
+
+.journal-list ul {
+  margin: auto;
+  width: 700px;
+}
+
+
+
+td {
+
+    vertical-align: top;
+}
+
+pre {
+    overflow: auto;
+}
+
+.CodeInfo {
+    width: 100%;
+    text-align: left;
+}
+
+.JohnsonBound {
+    border-collapse: collapse;
+}
+
+.JohnsonBound td {
+    width: 150px;
+}
+
+.JohnsonBound tr td {
+    border: 1px solid #CCCCCC; 
+    text-align: center;  
+}
+
+
+

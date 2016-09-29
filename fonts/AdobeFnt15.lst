@@ -1,0 +1,170 @@
+%!Adobe-FontList 1.15
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AgencyFB-Reg
+FamilyName:Agency FB
+StyleName:Regular
+MenuName:Agency FB
+StyleBits:0
+WeightClass:400
+WidthClass:3
+AngleClass:0
+FullName:Agency FB
+WritingScript:Roman
+OutlineFileName:\AGENCYR.TTF
+DataFormat:sfntData
+FileLength:58920
+FileModTime:1037731384
+NameArray:0,Mac,4,Agency FB
+NameArray:0,Win,1,Agency FB
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Architext-Regular
+FamilyName:Architext
+StyleName:Regular
+MenuName:Architext
+StyleBits:0
+WeightClass:5
+WidthClass:5
+AngleClass:0
+FullName:Architext Regular
+WritingScript:Roman
+OutlineFileName:\architextregular.ttf
+DataFormat:sfntData
+FileLength:40728
+FileModTime:781029800
+NameArray:0,Mac,4,Architext Regular
+NameArray:0,Win,1,Architext
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Bolster
+FamilyName:Bolster
+StyleName:Regular
+MenuName:Bolster
+StyleBits:0
+WeightClass:5
+WidthClass:5
+AngleClass:0
+FullName:Bolster Regular
+WritingScript:Roman
+OutlineFileName:\BOLSTER.TTF
+DataFormat:sfntData
+FileLength:35120
+FileModTime:810377548
+NameArray:0,Win,1,Bolster
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MMTextBook
+FamilyName:MMTextBook
+StyleName:Regular
+MenuName:MMTextBook
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:MMTextBook
+WritingScript:Roman
+OutlineFileName:\MMTextBook.otf
+DataFormat:sfntData
+UsesStandardEncoding:no
+isCFF:yes
+FileLength:11172
+FileModTime:1432947163
+NameArray:0,Mac,4,MMTextBook
+NameArray:0,Win,1,MMTextBook
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Modaerne
+FamilyName:Modaerne
+StyleName:Regular
+MenuName:Modaerne
+StyleBits:0
+WeightClass:5
+WidthClass:5
+AngleClass:0
+FullName:Modaerne Regular
+WritingScript:Roman
+OutlineFileName:\MODAERN.TTF
+DataFormat:sfntData
+FileLength:38812
+FileModTime:810377876
+NameArray:0,Win,1,Modaerne
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ModaerneLight
+FamilyName:ModaerneLight
+StyleName:Regular
+MenuName:ModaerneLight
+StyleBits:0
+WeightClass:5
+WidthClass:5
+AngleClass:0
+FullName:ModaerneLight Regular
+WritingScript:Roman
+OutlineFileName:\MODAERNL.TTF
+DataFormat:sfntData
+FileLength:38680
+FileModTime:810377876
+NameArray:0,Win,1,ModaerneLight
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:OCRAExtended
+FamilyName:OCR A Extended
+StyleName:Regular
+MenuName:OCR A Extended
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:OCR A Extended
+WritingScript:Roman
+OutlineFileName:\OCRAEXT.TTF
+DataFormat:sfntData
+FileLength:55400
+FileModTime:930245638
+NameArray:0,Mac,4,OCR A Extended
+NameArray:0,Win,1,OCR A Extended
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Square721BT-Roman
+FamilyName:Square721 BT
+StyleName:Roman
+MenuName:Square721 BT
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Square 721 BT
+WritingScript:Roman
+OutlineFileName:\TT0246M.TTF
+DataFormat:sfntData
+FileLength:38396
+FileModTime:883558228
+NameArray:0,Mac,4,Square 721 BT
+NameArray:0,Win,1,Square721 BT
+%EndFont
+

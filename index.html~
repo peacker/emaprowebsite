@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Emanuele Bellini</title>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+  </head>
+  <body>
+    <h1>Enea Lumenbell II</h1>
+    <!-- <img src="http://s3.amazonaws.com/codecademy-blog/assets/ninja_zpsa5dbe37a.jpg"> -->
+    <img src="img/ninja.jpg"/>
+    <p style="color: blue;">1983.<em>Male</em>.<strong>Turin</strong>.</p>
+    <p>...every story has its own teller.</p>
+    <a href="cv.html"/><p>cv</p></a>
+
+    <div style="float:right;">
+      <!-- START OF HIT COUNTER CODE -->
+      <br>
+      <script language="JavaScript" src="http://www.counter160.com/js.js?img=15"></script>
+      <br>
+      <!--
+      <a href="http://www.000webhost.com">
+        <img src="http://www.counter160.com/images/15/left.png" alt="Free web hosting" border="0" align="texttop">
+      </a>
+
+      <a href="http://www.hosting24.com">
+        <img alt="Web hosting" src="http://www.counter160.com/images/15/right.png" border="0" align="texttop">
+      </a>
+      -->
+      <!-- END OF HIT COUNTER CODE -->
+    </div>
+  </body>
+</html>
+

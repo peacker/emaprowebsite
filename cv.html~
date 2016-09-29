@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>cv</title>
+	</head>
+	<body>
+<!--
+		<div id="navbar">
+      <div class="navbar_div">
+        <a class="navbar_link" href="index.html">home</a>
+      </div>
+      <div class="navbar_div">
+        <a class="navbar_link" href="cv.html">cv</a>
+      </div>
+      <div class="navbar_div">
+        <a class="navbar_link" href="plans.html">plans for World Domination</a>
+      </div>
+      <div class="navbar_div">
+        <a class="navbar_link" href="contact.html">contact</a>
+      </div>
+		</div>
+-->
+		<div id="header">
+			<h2>Header</h2>
+		</div>
+    
+    <div id="section">
+
+		  <div id="left">
+      <p></p>
+		  </div>
+
+		  <div id="right">
+        <h1>hot stuff</h1>
+		  </div>
+
+      <div id="center">
+        testo centrale<br>
+        testo centrale<br>
+        testo centrale<br>
+        testo centrale<br>
+        testo centrale<br>
+        testo centrale<br>
+        testo centrale<br>
+        testo centrale<br>
+      </div>
+
+
+   <div>
+
+		<div id="footer">
+      
+		</div>
+
+	</body>
+</html>
+
+<!--
+	
+-->
+

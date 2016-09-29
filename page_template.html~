@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+	  <title>Emanuele Bellini</title>
+
+	  <link type="text/css" rel="stylesheet" href="stylesheet2.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+
+<!--
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+-->
+    <link rel="stylesheet" href="highlight/styles/default.css">
+    <script src="highlight/highlight.pack_ema.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <script>
+      function setActive() {
+        // HIGHLIGH NAV BAR ITEM
+        var aObj = document.getElementById('navbar').getElementsByTagName('a');
+        //aObj = document.getElementsByTagName('nav').getElementsByTagName('a');
+        for(i=0;i<aObj.length;i++) { 
+          if(document.location.href.indexOf(aObj[i].href)>=0) {
+            aObj[i].className='active';
+          }
+        }
+        // SET BACKGROUND
+        var page_name = location.pathname.split('/') ;
+        page_name = page_name[page_name.length-1] ;
+
+        //document.write(page_name) ;
+        switch (chapter) {
+          case 'home':
+            document.body.style.backgroundImage = 'url("./img/alpi3-optimized.jpg")' ;
+            break;
+          case 'about':
+            document.body.style.backgroundImage = 'url("./img/jump-optimized.jpg")' ;
+            break;
+          case 'research':
+            document.body.style.backgroundImage = 'url("./img/research-optimized.jpg")' ;
+            break;
+          case 'teaching':
+            document.body.style.backgroundImage = 'url("./img/teaching-optimized.jpg")' ;
+            break;
+          case 'programming':
+            document.body.style.backgroundImage = 'url("./img/programming6-optimized.jpg")' ;
+            break;
+          case 'contact':
+            document.body.style.backgroundImage = 'url("./img/contact3-optimized.jpg")' ;
+            break;
+          default:
+            document.body.style.backgroundColor = '#707070' ;
+        } 
+      }
+      window.onload = setActive;
+    </script>
+  </head>
+
+	<body>
+
+    <?php include 'navbar.html';?>
+
+    <div id="wrapper">
+      <header>
+        <p id="bigtitle"><a href="home.php">
+         <span style="color: #f7cd0a">e</span>manuele 
+         <span style="color: #0f3062">b</span>ellini</a>
+        </p>
+        <p id="littletitle">* cryptographer * </p>
+
+      <!--
+        <div class="header-img-container">
+          <img id="header-img" src="img/alpi.png">          
+        </div>
+      -->
+
+      </header>
+
+      <!--
+      <aside>
+        aside
+      </aside>
+      -->
+
+      <div id="main">
+
+        <h3>Title</h3>
+        <hr>
+        <br>
+        <p>
+        Work in progress...
+        </p>
+
+      </div>
+
+      <!--
+      <div id="body-img-container">
+        <img src="img/jump.jpg"> 
+      </div>
+      -->
+
+      <footer>
+        <span>
+          Maintained by Emanuele Bellini
+        </span>
+      </footer>
+
+    </div>
+
+	</body>
+
+</html>
+
+<!--
+-->
+
