@@ -299,7 +299,7 @@ $DATABASE = array(
     'TITLE' => 'Question authority: an inquiry into the secure layer',
     'TYPE' => 'Bachelor Thesis',
     'SUPERVISOR' => 'M. Sala',
-    'STUDENT' => 'Michele Orru\'',
+    'STUDENT' => htmlentities('Michele Orrù', ENT_COMPAT, 'UTF-8'),
     'INSTITUTE' => 'University of Trento',
     'DEPARTMENT' => 'Department of Computer Science',
     'DATE' => '2013',
@@ -385,7 +385,13 @@ $DATABASE = array(
     'TYPE' => 'Multimedia Geometry Seminar Spring 2011',
     'LOCATION' => 'Department of Mathematics, University of Trento, Italy',
     'DATE' => '2011-04-04'
-    )  
+    ) ,
+    array(
+    'TITLE' => 'Aspetti pratici e nuove sfide della crittografia',
+    'TYPE' => 'Workshop on Cryptography and Cryptanalysis, Master in Analisi Comportamentale e Scienze Applicate all’Intelligence e Homeland Security and Master in Scienze Forensi e Criminologia Investigativa. http://analisicriminale.unilink.it/cryptography-cryptanalysis/',
+    'LOCATION' => 'Link Campus University, Rome, Italy',
+    'DATE' => '2016-09-23'
+    ) 
   ] 
 ) ;
 ?>

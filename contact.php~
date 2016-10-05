@@ -64,9 +64,14 @@
   </form>	
 
   <?php
-      $name = $_POST['name'];
-      $email = $_POST['email'];
-      $message = $_POST['message'];
+      $name = test_input($_POST['name']);
+      //$name = $_POST['name'];
+
+      $email = test_input($_POST['email']);
+      //$email = $_POST['email'];
+
+      $message = test_input($_POST['message']);
+      //$message = $_POST['message'];
 
       $body = "From: $name\n E-Mail: $email\n Message:\n $message";
 
@@ -74,8 +79,17 @@
       $to = 'eemanuele.bellini@gmail.com'; 
       $subject = 'Hello';
 
-      $human = $_POST['human'];
-				
+      $human = test_input($_POST['human']);
+      //$human = $_POST['human'];
+/*
+      function test_input($data) {
+        $data = trim($data); // Strip unnecessary characters (extra space, tab, newline) from the user input data
+        $data = stripslashes($data); // Remove backslashes (\) from the user input data
+        $data = htmlspecialchars($data);
+        return $data;
+      }		
+*/		
+
       //echo '<p>POST_submit:</p>' . $_POST['submit'] ;
       if ($_POST['submit'] && $human == '2') {		
         //echo '<p>MAIL RESULT:</p>' . mail ($to, $subject, $body, $from) ;		
@@ -142,6 +156,7 @@
 </div>
 
 <script>
+var chapter = 'contact' ;
 var x = document.getElementById('temp-content') ;
 document.getElementById('main').innerHTML = x.innerHTML ;
 </script>

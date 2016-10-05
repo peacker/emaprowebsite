@@ -385,7 +385,13 @@ $DATABASE = array(
     'TYPE' => 'Multimedia Geometry Seminar Spring 2011',
     'LOCATION' => 'Department of Mathematics, University of Trento, Italy',
     'DATE' => '2011-04-04'
-    )  
+    ) ,
+    array(
+    'TITLE' => 'Aspetti pratici e nuove sfide della crittografia',
+    'TYPE' => 'Workshop on Cryptography and Cryptanalysis, Master in Analisi Comportamentale e Scienze Applicate all\'Intelligence e Homeland Security and Master in Scienze Forensi e Criminologia Investigativa. http://analisicriminale.unilink.it/cryptography-cryptanalysis/',
+    'LOCATION' => 'Link Campus University, Rome, Italy',
+    'DATE' => '2016-09-23'
+    ) 
   ] 
 ) ;
 ?>
